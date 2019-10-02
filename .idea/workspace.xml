@@ -1,0 +1,1398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce218ed0-5804-4562-93e1-af0e17e60fef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angles.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arm_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assembly.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackbackground.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blacktowhite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capture" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/connect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contours.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/converter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/converterNew.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/converterOld.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coords.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/output/binarized.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/output/binarized_treshold_filled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/output/contours.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/output/green_background_removed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/output/resized.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/output/solved.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/20190319_105004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/20190321_110722 (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/53709515_410029213106457_5303874071816044544_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/Capture.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/LOL.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/calibrate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/fd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/flip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/flipped.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/forsaken.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/forsaken2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/green.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/green6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/greenFilter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/greenN1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/greenTest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/greenborder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/h.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/l.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/other.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/tester.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/samples/y.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/Camera/20190430_114044.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/Camera/20190430_114213.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/NOTICE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/adb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/api/annotations.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/api/api-versions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/deployagent" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/deployagent.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/deploypatchgenerator.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/dmtracedump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/e2fsdroid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/etc1tool" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/fastboot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/hprof-conv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/lib64/libc++.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/make_f2fs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/mke2fs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/mke2fs.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/sload_f2fs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/source.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/UPSTREAM_REVISION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/bin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/bin/run_tests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/bin/update_chrome_reference_binaries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/eslint/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/eslint/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/eslint/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/eslint/bin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/eslint/bin/run_eslint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/eslint/bin/run_tests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/eslint/eslint/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/eslint/eslint/smoke_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/eslint/rules/catapult-camelcase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/eslint/tests/catapult-camelcase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/lab/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/lab/commits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/lab/hardware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/lab/keychain_unlock.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/node_runner/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/node_runner/node_runner/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/node_runner/node_runner/minify" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/node_runner/node_runner/node_binaries.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/node_runner/node_runner/node_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/node_runner/node_runner/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_trace_event/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_trace_event/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_trace_event/py_trace_event/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_trace_event/py_trace_event/run_tests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_trace_event/py_trace_event/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_trace_event/py_trace_event/trace_event.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_trace_event/py_trace_event/trace_event_impl/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_trace_event/py_trace_event/trace_event_impl/decorators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_trace_event/py_trace_event/trace_event_impl/decorators_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_trace_event/py_trace_event/trace_event_impl/log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_trace_event/py_trace_event/trace_event_impl/log_io_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_trace_event/py_trace_event/trace_event_impl/meta_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_trace_event/py_trace_event/trace_event_impl/multiprocessing_shim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_trace_event/py_trace_event/trace_event_impl/parsed_trace_events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_trace_event/py_trace_event/trace_event_impl/trace_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_trace_event/py_trace_event/trace_event_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_trace_event/py_trace_event/trace_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_trace_event/py_trace_event/trace_time_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/PRESUBMIT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/atexit_with_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/binary_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/binary_manager_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/camel_case.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/camel_case_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/chrome_binaries.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/class_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/class_util_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/cloud_storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/cloud_storage_global_lock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/cloud_storage_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/contextlib_ext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/contextlib_ext_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/dependency_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/discover.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/discover_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/expectations_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/expectations_parser_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/file_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/file_util_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/lock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/lock_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/logging_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/logging_util_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/memory_debug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/py_utils_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/refactor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/refactor/annotated_symbol/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/refactor/annotated_symbol/base_symbol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/refactor/annotated_symbol/class_definition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/refactor/annotated_symbol/function_definition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/refactor/annotated_symbol/import_statement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/refactor/annotated_symbol/reference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/refactor/module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/refactor/offset_token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/refactor/snippet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/refactor_util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/refactor_util/move.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/retry_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/retry_util_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/shell_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/slots_metaclass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/slots_metaclass_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/tempfile_ext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/tempfile_ext_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/test_data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/test_data/discoverable_classes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/test_data/discoverable_classes/another_discover_dummyclass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/test_data/discoverable_classes/discover_dummyclass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/test_data/discoverable_classes/parameter_discover_dummyclass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/test_data/foo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_utils/py_utils/xvfb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/README.chromium" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/bin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/bin/run_py_tests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/fake_fs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/fake_fs_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/generate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/generate_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/html_generation_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/html_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/html_module_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/js_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/js_utils_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/module_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/parse_html_deps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/parse_html_deps_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/resource.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/resource_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/resource_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/strip_js_comments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/strip_js_comments_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/style_sheet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/style_sheet_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/MANIFEST" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/README.chromium" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/README.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/bench/LICENSE.cssmin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/bench/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/bench/cssmin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/bench/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/bench/wikipedia.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/bench/wikipedia.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/bench/write.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/docs/BENCHMARKS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/docs/CHANGES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/docs/CLASSIFIERS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/docs/DESCRIPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/docs/PROVIDES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/docs/SUMMARY" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/docs/apidoc/api-objects.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/docs/apidoc/crarr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/docs/apidoc/epydoc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/docs/apidoc/epydoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/docs/apidoc/help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/docs/apidoc/identifier-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/docs/apidoc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/docs/apidoc/module-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/docs/apidoc/rcssmin-module.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/docs/apidoc/rcssmin-pysrc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/docs/apidoc/redirect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/package.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/rcssmin.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/rcssmin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/run_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/atgroup_00.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/atgroup_01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/atgroup_02.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/atgroup_03.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/atgroup_04.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/atgroup_05.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/atgroup_06.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/atgroup_07.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/atgroup_08.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/atgroup_09.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/atgroup_10.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/atgroup_11.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/comment_00.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/comment_01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/comment_02.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/comment_03.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/comment_04.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/escape_00.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/escape_01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/escape_02.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/escape_03.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/escape_04.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/escape_05.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/escape_06.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/first_00.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/first_01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/first_02.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_00.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_00.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_01.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_02.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_03.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_04.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_04.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_05.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_05.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_06.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_06.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_07.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_07.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_08.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_08.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_09.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_09.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_10.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_10.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_11.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/atgroup_11.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/comment_00.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/comment_00.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/comment_01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/comment_01.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/comment_02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/comment_02.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/comment_03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/comment_03.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/comment_04.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/comment_04.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/escape_00.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/escape_00.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/escape_01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/escape_01.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/escape_02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/escape_02.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/escape_03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/escape_03.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/escape_04.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/escape_04.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/escape_05.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/escape_05.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/escape_06.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/escape_06.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/first_00.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/first_00.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/first_01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/first_01.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/first_02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/first_02.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_00.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_00.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_01.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_02.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_03.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_04.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_04.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_05.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_05.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_06.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_06.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_07.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_07.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_08.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_08.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_09.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/out/url_09.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/url_00.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/url_01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/url_02.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/url_03.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/url_04.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/url_05.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/url_06.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/url_07.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/url_08.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/url_09.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/background-position.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/background-position.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/border-none.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/border-none.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/box-model-hack.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/box-model-hack.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/bug2527974.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/bug2527974.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/bug2527991.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/bug2527991.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/bug2527998.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/bug2527998.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/bug2528034.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/bug2528034.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/charset-media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/charset-media.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/color-simple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/color-simple.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/color.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/color.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/comment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/comment.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/concat-charset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/concat-charset.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-base64-doublequotes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-base64-doublequotes.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-base64-eof.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-base64-eof.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-base64-linebreakindata.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-base64-linebreakindata.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-base64-noquotes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-base64-noquotes.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-base64-singlequotes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-base64-singlequotes.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-base64-twourls.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-base64-twourls.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-dbquote-font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-dbquote-font.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-nonbase64-doublequotes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-nonbase64-doublequotes.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-nonbase64-noquotes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-nonbase64-noquotes.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-nonbase64-singlequotes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-nonbase64-singlequotes.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-noquote-multiline-font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-noquote-multiline-font.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-realdata-doublequotes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-realdata-doublequotes.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-realdata-noquotes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-realdata-noquotes.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-realdata-singlequotes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-realdata-singlequotes.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-realdata-yuiapp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-realdata-yuiapp.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-singlequote-font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dataurl-singlequote-font.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/decimals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/decimals.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dollar-header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/dollar-header.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/font-face.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/font-face.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/ie5mac.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/ie5mac.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/media-empty-class.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/media-empty-class.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/media-multi.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/media-multi.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/media-test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/media-test.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/opacity-filter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/opacity-filter.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/background-position.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/background-position.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/border-none.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/border-none.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/box-model-hack.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/box-model-hack.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/bug2527974.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/bug2527974.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/bug2527991.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/bug2527991.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/bug2527998.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/bug2527998.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/bug2528034.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/bug2528034.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/charset-media.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/charset-media.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/color-simple.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/color-simple.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/color.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/color.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/comment.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/comment.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/concat-charset.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/concat-charset.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-base64-doublequotes.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-base64-doublequotes.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-base64-eof.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-base64-eof.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-base64-linebreakindata.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-base64-linebreakindata.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-base64-noquotes.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-base64-noquotes.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-base64-singlequotes.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-base64-singlequotes.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-base64-twourls.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-base64-twourls.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-dbquote-font.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-dbquote-font.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-nonbase64-doublequotes.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-nonbase64-doublequotes.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-nonbase64-noquotes.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-nonbase64-noquotes.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-nonbase64-singlequotes.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-nonbase64-singlequotes.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-noquote-multiline-font.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-noquote-multiline-font.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-realdata-doublequotes.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-realdata-doublequotes.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-realdata-noquotes.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-realdata-noquotes.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-realdata-singlequotes.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-realdata-singlequotes.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-realdata-yuiapp.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-realdata-yuiapp.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-singlequote-font.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dataurl-singlequote-font.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/decimals.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/decimals.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dollar-header.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/dollar-header.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/font-face.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/font-face.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/ie5mac.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/ie5mac.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/media-empty-class.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/media-empty-class.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/media-multi.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/media-multi.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/media-test.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/media-test.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/opacity-filter.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/opacity-filter.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/preserve-case.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/preserve-case.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/preserve-new-line.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/preserve-new-line.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/preserve-strings.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/preserve-strings.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/pseudo-first.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/pseudo-first.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/pseudo.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/pseudo.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/special-comments.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/special-comments.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/star-underscore-hacks.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/star-underscore-hacks.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/string-in-comment.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/string-in-comment.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/webkit-transform.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/webkit-transform.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/zeros.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/out/zeros.out.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/preserve-case.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/preserve-case.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/preserve-new-line.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/preserve-new-line.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/preserve-strings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/preserve-strings.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/pseudo-first.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/pseudo-first.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/pseudo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/pseudo.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/special-comments.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/special-comments.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/star-underscore-hacks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/star-underscore-hacks.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/string-in-comment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/string-in-comment.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/webkit-transform.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/webkit-transform.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/zeros.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/zeros.css.min" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/MANIFEST" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/README.chromium" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/README.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/bench/DateTimeShortcuts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/bench/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/bench/apiviewer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/bench/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/bench/jquery-1.7.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/bench/jsmin.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/bench/jsmin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/bench/jsmin_2_0_9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/bench/knockout-2.0.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/bench/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/bench/markermanager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/bench/write.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/docs/BENCHMARKS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/docs/CHANGES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/docs/CLASSIFIERS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/docs/DESCRIPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/docs/PROVIDES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/docs/SUMMARY" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/docs/apidoc/api-objects.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/docs/apidoc/crarr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/docs/apidoc/epydoc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/docs/apidoc/epydoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/docs/apidoc/help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/docs/apidoc/identifier-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/docs/apidoc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/docs/apidoc/module-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/docs/apidoc/redirect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/docs/apidoc/rjsmin-module.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/docs/apidoc/rjsmin-pysrc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/package.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/rjsmin.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/rjsmin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/PRESUBMIT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/bin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/bin/run_tests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/bin/update" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/dependency_manager/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/dependency_manager/archive_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/dependency_manager/base_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/dependency_manager/base_config_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/dependency_manager/cloud_storage_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/dependency_manager/cloud_storage_info_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/dependency_manager/dependency_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/dependency_manager/dependency_info_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/dependency_manager/dependency_manager_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/dependency_manager/dependency_manager_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/dependency_manager/dependency_manager_util_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/dependency_manager/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/dependency_manager/local_path_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/dependency_manager/local_path_info_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/dependency_manager/manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/dependency_manager/uploader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/dependency_manager/uploader_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/dependency_manager/pylintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/BUILD.gn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/PRESUBMIT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/bin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/bin/generate_md_docs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/bin/run_py_devicetests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/bin/run_py_tests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/apk_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/apk_helper_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/app_ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/app_ui_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/battery_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/battery_utils_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/constants/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/constants/chrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/constants/file_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/constants/webapk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/crash_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/crash_handler_devicetest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/decorators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/decorators_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/device_blacklist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/device_blacklist_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/device_errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/device_errors_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/device_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/device_signal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/device_temp_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/device_test_case.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/device_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/device_utils_devicetest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/device_utils_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/fastboot_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/fastboot_utils_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/flag_changer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/flag_changer_devicetest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/flag_changer_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/forwarder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/install_commands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/logcat_monitor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/logcat_monitor_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/md5sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/md5sum_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/perf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/perf/cache_control.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/perf/perf_control.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/perf/perf_control_devicetest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/perf/perf_control_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/perf/surface_stats_collector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/perf/thermal_throttle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/ports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/sdk/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/sdk/aapt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/sdk/adb_compatibility_devicetest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/sdk/adb_wrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/sdk/adb_wrapper_devicetest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/sdk/adb_wrapper_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/sdk/build_tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/sdk/dexdump.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/sdk/fastboot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/sdk/gce_adb_wrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/sdk/intent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/sdk/keyevent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/sdk/shared_prefs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/sdk/shared_prefs_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/sdk/split_select.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/sdk/test/data/push_directory/push_directory_contents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/sdk/test/data/push_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/sdk/version_codes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/tools/adb_run_shell_cmd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/tools/cpufreq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/tools/device_monitor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/tools/device_monitor_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/tools/device_recovery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/tools/device_status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/tools/flash_device.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/tools/keyboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/tools/provision_devices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/tools/screenshot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/tools/script_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/tools/script_common_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/tools/system_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/tools/system_app_devicetest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/tools/system_app_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/tools/unlock_bootloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/tools/video_recorder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/tools/wait_for_devices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/valgrind_tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/android/valgrind_tools/base_tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/base_error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/constants/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/constants/exit_codes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/devil_dependencies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/devil_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/devil_env_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/cmd_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/cmd_helper_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/file_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/find_usb_devices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/find_usb_devices_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/geometry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/geometry_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/host_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/lazy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/lazy/weak_constant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/lazy/weak_constant_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/logging_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/lsusb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/lsusb_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/markdown.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/markdown_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/mock_calls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/mock_calls_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/parallelizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/parallelizer_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/reraiser_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/reraiser_thread_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/reset_usb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/run_tests_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/signal_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/timeout_retry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/timeout_retry_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/usb_hubs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/watchdog_timer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/zip_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/devil/utils/zip_utils_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/docs/adb_wrapper.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/docs/device_blacklist.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/docs/device_utils.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/docs/markdown.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/docs/persistent_device_list.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/devil/pylintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/PRESUBMIT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/atrace_helper/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/atrace_helper/jni/Application.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/atrace_helper/jni/atrace_process_dump.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/atrace_helper/jni/atrace_process_dump.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/atrace_helper/jni/file_utils.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/atrace_helper/jni/file_utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/atrace_helper/jni/libmemtrack_wrapper.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/atrace_helper/jni/libmemtrack_wrapper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/atrace_helper/jni/logging.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/atrace_helper/jni/main.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/atrace_helper/jni/process_info.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/atrace_helper/jni/process_memory_stats.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/atrace_helper/jni/process_memory_stats.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/atrace_helper/jni/procfs_utils.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/atrace_helper/jni/procfs_utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/atrace_helper/jni/time_utils.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/atrace_helper/jni/time_utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/bin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/bin/adb_profile_chrome" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/bin/adb_profile_chrome_startup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/bin/run_tests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/bin/systrace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/chrome_startup_tracing_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/chrome_startup_tracing_agent_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/chrome_tracing_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/chrome_tracing_agent_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/ddms_tracing_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/ddms_tracing_agent_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/fake_agent_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/fake_agent_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/flags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/perf_tracing_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/perf_tracing_agent_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/profiler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/profiler_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/run_tests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/third_party/COPYING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/third_party/README.chromium" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/third_party/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/third_party/perf_to_tracing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/profile_chrome/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/pylintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/decorators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/monitor_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/output_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/output_generator_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/prefix.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/run_systrace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/suffix.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/systrace_runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/systrace_trace_viewer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/test_data/atrace_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/test_data/atrace_data_raw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/test_data/atrace_data_stripped" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/test_data/atrace_extracted_tgids" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/test_data/atrace_extracted_threads" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/test_data/atrace_fixed_tgids" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/test_data/atrace_missing_tgids" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/test_data/atrace_procfs_dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/test_data/compressed_atrace_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/test_data/decompressed_atrace_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/test_data/profile-chrome_systrace_perf_chrome_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/trace_result.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/tracing_agents/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/tracing_agents/agents_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/tracing_agents/android_process_data_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/tracing_agents/atrace_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/tracing_agents/atrace_agent_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/tracing_agents/atrace_from_file_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/tracing_agents/atrace_from_file_agent_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/tracing_agents/atrace_process_dump.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/tracing_agents/ftrace_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/tracing_agents/ftrace_agent_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/tracing_agents/walt_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/tracing_agents/walt_agent_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/tracing_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/update_systrace_trace_viewer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/systrace/systrace/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/README.chromium" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/linux-product_info.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/rfc2217.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/serialcli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/serialjava.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/serialposix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/serialutil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/serialwin32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/sermsdos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/tools/list_ports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/tools/list_ports_linux.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/tools/list_ports_osx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/tools/list_ports_posix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/tools/list_ports_windows.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/tools/miniterm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/urlhandler/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/urlhandler/protocol_hwgrep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/urlhandler/protocol_loop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/urlhandler/protocol_rfc2217.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/urlhandler/protocol_socket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/pyserial/serial/win32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/zipfile/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/zipfile/README.chromium" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/zipfile/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/third_party/zipfile/zipfile_2_7_13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/tracing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/tracing/tracing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/tracing/tracing/trace_data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/tracing/tracing/trace_data/trace_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/tracing/tracing/trace_data/trace_data_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/catapult/tracing/tracing_project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-tools/systrace/systrace.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JigsawPuzzle" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>img</find>
+      <find>piece</find>
+      <find>h</find>
+      <find>green.jpg</find>
+      <find>flipped</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/towhite.py" />
+        <option value="$PROJECT_DIR$/contours.py" />
+        <option value="$PROJECT_DIR$/blacktowhite.py" />
+        <option value="$PROJECT_DIR$/stripbackground.py" />
+        <option value="$PROJECT_DIR$/rotatenew.py" />
+        <option value="$PROJECT_DIR$/rotate.py" />
+        <option value="$PROJECT_DIR$/translate.py" />
+        <option value="$PROJECT_DIR$/connect.py" />
+        <option value="$PROJECT_DIR$/whitebackground.py" />
+        <option value="$PROJECT_DIR$/blackbackground.py" />
+        <option value="$PROJECT_DIR$/solve.py" />
+        <option value="$PROJECT_DIR$/new.py" />
+        <option value="$PROJECT_DIR$/strippieces.py" />
+        <option value="$PROJECT_DIR$/SIFT.py" />
+        <option value="$PROJECT_DIR$/pixeltopolar.py" />
+        <option value="$PROJECT_DIR$/workingsift.py" />
+        <option value="$PROJECT_DIR$/finalsolve.py" />
+        <option value="$PROJECT_DIR$/robot.py" />
+        <option value="$PROJECT_DIR$/final.py" />
+        <option value="$PROJECT_DIR$/objectdetection.py" />
+        <option value="$PROJECT_DIR$/assembly.py" />
+        <option value="$PROJECT_DIR$/separate.py" />
+        <option value="$PROJECT_DIR$/microadjustments.py" />
+        <option value="$PROJECT_DIR$/tampdown.py" />
+        <option value="$PROJECT_DIR$/takeimage.py" />
+        <option value="$PROJECT_DIR$/takepicture.py" />
+        <option value="$PROJECT_DIR$/GreenScreen.py" />
+        <option value="$PROJECT_DIR$/Extractor.py" />
+        <option value="$PROJECT_DIR$/images/samples/flip.py" />
+        <option value="$PROJECT_DIR$/Puzzle.py" />
+        <option value="$PROJECT_DIR$/turnbordergreen.py" />
+        <option value="$PROJECT_DIR$/61a.py" />
+        <option value="$PROJECT_DIR$/d.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JigsawPuzzle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JigsawPuzzle" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/samples" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/venv" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.d">
+    <configuration name="61a" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="JigsawPuzzle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/61a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Puzzle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="JigsawPuzzle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Puzzle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="d" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="JigsawPuzzle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="takepicture" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="JigsawPuzzle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/takepicture.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="turnbordergreen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="JigsawPuzzle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/turnbordergreen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.d" />
+        <item itemvalue="Python.61a" />
+        <item itemvalue="Python.takepicture" />
+        <item itemvalue="Python.turnbordergreen" />
+        <item itemvalue="Python.Puzzle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce218ed0-5804-4562-93e1-af0e17e60fef" name="Default Changelist" comment="" />
+      <created>1544718745830</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544718745830</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.20295984" />
+      <window_info id="Structure" order="1" sideWeight="0.50089765" side_tool="true" weight="0.24806201" />
+      <window_info id="Favorites" order="2" sideWeight="0.50089765" side_tool="true" weight="0.24806201" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22650602" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32771084" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/d.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Camera/20190430_231307.jpg" />
+    <entry file="file://$PROJECT_DIR$/Camera/20190430_231245.jpg" />
+    <entry file="file://$PROJECT_DIR$/Camera/20190430_231416.jpg" />
+    <entry file="file://$PROJECT_DIR$/Camera/20190430_231450.jpg" />
+    <entry file="file://$PROJECT_DIR$/tampdown.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puzzle.jpg" />
+    <entry file="file://$PROJECT_DIR$/robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puzzlestate.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GreenScreen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takePic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/samples/d.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/samples/Capture.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/samples/forsaken2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/samples/forsaken.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/samples/fd.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/samples/greenTest.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/samples/20190319_105004.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/samples/20190321_110722 (2).jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/samples/53709515_410029213106457_5303874071816044544_n.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/samples/greenN1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/output/contours.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputNew.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/samples/60361840_447556989353552_6175656032363085824_n.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/samples/f.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/samples/green.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/samples/flip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Puzzle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+          <folding>
+            <element signature="e#0#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/piece1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/output/solved.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/output/resized.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finalsolve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pixeltopolar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/separate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strippieces.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="167" column="23" lean-forward="true" selection-start-line="167" selection-start-column="23" selection-end-line="167" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whitebackground.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenborder.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/samples/greenborder.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnbordergreen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/samples/flipped.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeimage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#56#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Camera/20190627_110131.jpg" />
+    <entry file="file://$PROJECT_DIR$/Camera/20190627_123242.jpg" />
+    <entry file="file://$PROJECT_DIR$/takepicture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/999863242/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="792" column="16" selection-start-line="792" selection-start-column="16" selection-end-line="792" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/61a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="772">
+          <caret line="146" column="17" selection-start-line="146" selection-start-column="17" selection-end-line="146" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="119" column="40" selection-start-line="119" selection-start-column="40" selection-end-line="119" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contours.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
